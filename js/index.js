@@ -1,6 +1,6 @@
 //Register the service worker
 if (navigator.serviceWorker){ //Browser support detection for service Worker
-  navigator.serviceWorker.register('/index.js', {
+  navigator.serviceWorker.register('/sw.js', {
     scope: '/localhost'
   }).then(function(reg){
     console.log("Service Worker Registered");
