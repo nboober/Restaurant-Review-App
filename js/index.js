@@ -1,4 +1,17 @@
-//Installing service worker
+//Register the service worker
+if (navigator.serviceWorker){ //Browser support detection for service Worker
+  navigator.serviceWorker.register('/index.js', {
+    scope: '/localhost'
+  }).then(function(reg){
+    console.log("Service Worker Registered");
+  })catch(function(err){
+    console.log("Service Worker not Registered");
+  });
+}
+
+
+
+//Installing the service worker
 self.addEventListener('install', function(event){ //add event listener for the install event
   event.waitUntil(  //Signals the progress of the install
     caches.open('restaurant-reviews-v1').then(function(cache){  //Creates/Opens a new cache
