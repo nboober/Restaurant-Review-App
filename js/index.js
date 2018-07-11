@@ -9,7 +9,9 @@ if (navigator.serviceWorker){ //Browser support detection for service Worker
   });
 }
 
-
+self.addEventListener('fetch', function(event){
+  console.log(event.request);
+});
 
 //Installing the service worker
 self.addEventListener('install', function(event){ //add event listener for the install event
