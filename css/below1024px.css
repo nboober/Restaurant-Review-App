@@ -60,7 +60,7 @@ nav h1 {
 }
 nav h1 a {
   color: #fff;
-  font-size: 24pt;
+  font-size: 40pt;
   font-weight: 200;
   letter-spacing: 10px;
   text-transform: uppercase;
@@ -169,14 +169,14 @@ nav h1 a {
 }
 #restaurants-list p {
   margin: 0;
-  font-size: 11pt;
+  font-size: 20pt;
 }
 #restaurants-list li a {
   background-color: orange;
   border-bottom: 3px solid #eee;
   color: #fff;
   display: inline-block;
-  font-size: 10pt;
+  font-size: 24pt;
   margin: 15px 0 0;
   padding: 8px 30px 10px;
   text-align: center;
