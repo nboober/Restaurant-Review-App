@@ -136,9 +136,12 @@ nav h1 a {
 #restaurants-list {
   background-color: #f3f3f3;
   list-style: outside none none;
-  margin: 0;
+  margin: auto;
   padding: 30px 15px 60px;
   text-align: center;
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
 }
 #restaurants-list li {
   background-color: #fff;
@@ -148,6 +151,7 @@ nav h1 a {
   min-height: 380px;
   padding: 0 30px 25px;
   text-align: left;
+	width: 40%;
 }
 #restaurants-list .restaurant-img {
   background-color: #ccc;
