@@ -14,7 +14,7 @@ body {
 }
 ul, li {
 	font-family: Arial, Helvetica, sans-serif;
-	font-size: 10pt;
+	font-size: 17pt;
 	color: #333;
 }
 a {
@@ -69,7 +69,6 @@ nav h1 a {
     padding: 10px 40px 16px;
     list-style: none;
     background-color: #eee;
-    font-size: 17px;
     margin: 0;
     width: calc(50% - 80px);
 }
@@ -102,6 +101,11 @@ nav h1 a {
   height: 400px;
   width: 100%;
   background-color: #ccc;
+}
+
+div.leaflet-top.leaflet-left{
+	top: 100px;
+	z-index: 500;
 }
 /* ====================== Restaurant Filtering ====================== */
 .filter-options {
