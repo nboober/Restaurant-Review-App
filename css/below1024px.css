@@ -14,7 +14,7 @@ body {
 }
 ul, li {
 	font-family: Arial, Helvetica, sans-serif;
-	font-size: 17pt;
+	font-size: 24pt;
 	color: #333;
 }
 a {
@@ -281,6 +281,10 @@ div.leaflet-top.leaflet-left{
 }
 #reviews-list li p {
   margin: 0 0 10px;
+}
+#reviews-list li p .rating{
+	background-color: orange;
+	color: white;
 }
 #restaurant-hours td {
   color: #666;
