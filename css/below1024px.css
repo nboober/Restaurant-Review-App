@@ -3,7 +3,7 @@
 
 body,td,th,p{
 	font-family: Arial, Helvetica, sans-serif;
-	font-size: 10pt;
+	font-size: 14pt;
 	color: #333;
 	line-height: 1.5;
 }
@@ -271,20 +271,42 @@ div.leaflet-top.leaflet-left{
 #reviews-list li {
   background-color: #fff;
     border: 2px solid #f3f3f3;
+		border-radius: 50px 0 50px 0;
   display: block;
   list-style-type: none;
-  margin: 0 0 30px;
+  margin: 0 0 20px;
   overflow: hidden;
-  padding: 0 20px 20px;
+  padding-bottom: 20px;
   position: relative;
   width: 85%;
 }
 #reviews-list li p {
-  margin: 0 0 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+
 }
-#reviews-list li p .rating{
+#reviews-list li div{
+	background-color: black;
+	padding: 0px;S
+}
+#reviews-list li div p:nth-child(1){
+	color: white;
+	display: inline;
+	font-size: 24px;
+}
+#reviews-list li  div p:nth-child(2){
+	background-color: black;
+	color: white;
+	display: inline;
+	padding-left: 25%;
+	font-size: 24px;
+}
+#reviews-list li p:nth-child(2){
 	background-color: orange;
 	color: white;
+	margin-top: 20px;
+	margin-left: 20px;
+	margin-right: 500px;
 }
 #restaurant-hours td {
   color: #666;
