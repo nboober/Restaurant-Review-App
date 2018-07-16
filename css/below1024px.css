@@ -3,7 +3,7 @@
 
 body,td,th,p{
 	font-family: Arial, Helvetica, sans-serif;
-	font-size: 14pt;
+	/* font-size: 14pt; */
 	color: #333;
 	line-height: 1.5;
 }
@@ -106,6 +106,9 @@ nav h1 a {
 
 div.leaflet-top.leaflet-left{
 	top: 100px;
+	z-index: 500;
+}
+div.leaflet-bottom.leaflet-right{
 	z-index: 500;
 }
 /* ====================== Restaurant Filtering ====================== */
@@ -270,8 +273,8 @@ div.leaflet-top.leaflet-left{
 }
 #reviews-list li {
   background-color: #fff;
-    border: 2px solid #f3f3f3;
-		border-radius: 50px 0 50px 0;
+  border: 2px solid #f3f3f3;
+	border-radius: 50px 0 50px 0;
   display: block;
   list-style-type: none;
   margin: 0 0 20px;
@@ -287,27 +290,30 @@ div.leaflet-top.leaflet-left{
 }
 #reviews-list li div{
 	background-color: black;
-	padding: 0px;S
+	padding: 0px;
+	height: auto;
 }
 #reviews-list li div p:nth-child(1){
 	color: white;
 	display: inline;
-	font-size: 24px;
+	font-size: 40px;
+	margin-left: 0px;
 }
-#reviews-list li  div p:nth-child(2){
+#reviews-list li div p:nth-child(2){
 	background-color: black;
 	color: white;
-	display: inline;
-	padding-left: 25%;
-	font-size: 24px;
+	float: right;
+	width: auto;
+	margin: 0px;
+	vertical-align: bottom;
 }
 #reviews-list li p:nth-child(2){
 	background-color: orange;
 	color: white;
-	margin-top: 20px;
 	margin-left: 20px;
-	margin-right: 500px;
+	width: 20%;
 }
+
 #restaurant-hours td {
   color: #666;
 	font-size: 30px;

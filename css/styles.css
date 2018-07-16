@@ -259,18 +259,45 @@ nav h1 a {
   padding: 0;
 }
 #reviews-list li {
-  background-color: #fff;
-    border: 2px solid #f3f3f3;
+	background-color: #fff;
+  border: 2px solid #f3f3f3;
+	border-radius: 50px 0 50px 0;
   display: block;
   list-style-type: none;
-  margin: 0 0 30px;
+  margin: 0 0 20px;
   overflow: hidden;
-  padding: 0 20px 20px;
+  padding-bottom: 20px;
   position: relative;
   width: 85%;
 }
 #reviews-list li p {
-  margin: 0 0 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+#reviews-list li div{
+	background-color: black;
+	padding: 0px;
+	height: auto;
+}
+#reviews-list li div p:nth-child(1){
+	color: white;
+	display: inline;
+	font-size: 40px;
+	margin-left: 0px;
+}
+#reviews-list li div p:nth-child(2){
+	background-color: black;
+	color: white;
+	float: right;
+	font-size: 24px;
+	width: auto;
+}
+#reviews-list li p:nth-child(2){
+	background-color: orange;
+	color: white;
+	margin-top: 20px;
+	margin-left: 20px;
+	width: 10%;
 }
 #restaurant-hours td {
   color: #666;
